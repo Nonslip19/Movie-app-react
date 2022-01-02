@@ -101,6 +101,15 @@ body {
   border-radius: 5px;
   outline: none;
   border: none;
+  margin-right: 10px;
+}
+
+.search-button{
+  background-color: #0d47a1;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 300;
 }
 
 .form-control{
