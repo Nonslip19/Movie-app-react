@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.897);
+  background-color: rgba(255, 255, 255, 0.897);
   color: black;
   font-family: "Poppins", "sans-serif";
   margin: 0;
@@ -23,9 +23,9 @@ body {
 }
 
 .movie {
-  background-color: #3F51B5;
+  background-color: #0d47a1;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px 3px rgba(184, 174, 174, 0.644);
+  box-shadow: 0px 0px 15px 5px rgba(27, 26, 26, 0.671);
   overflow: hidden;
   margin: 1rem;
   width: 300px;
@@ -90,14 +90,15 @@ body {
   width: 100%;
   justify-content: center;
   background-color: #bdbdbd;
-  padding: 1rem;
+  padding: .7rem;
   display: flex;
   justify-content: center;
 }
 
 .search-input {
-  height: 30px;
-  width: 300px;
+  padding-left: 15px;
+  height: 40px;
+  width: 400px;
   border-radius: 5px;
   outline: none;
   border: none;
@@ -109,7 +110,12 @@ body {
   color: white;
   border-style: none;
   border-radius: 5px;
-  font-weight: 300;
+  font-weight: 400;
+  padding: 0 15px;
+}
+
+.search-button:hover{
+  opacity: 0.8;
 }
 
 .form-control{
@@ -121,6 +127,7 @@ body {
 .navbar {
   padding: 1rem 3rem;
   background-color: #0d47a1 !important;
+  color: white;
 }
 
 .register {
