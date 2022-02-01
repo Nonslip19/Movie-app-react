@@ -9,7 +9,7 @@ function App() {
         <AppRouter/>
       </AuthContextProvider>
     </div>  
-  )
+  ) 
 }
 
 export default App;
