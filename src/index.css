@@ -125,7 +125,7 @@ body {
 }
 
 .navbar {
-  padding: 1rem 3rem;
+  padding: 0.5rem 3rem;
   background-color: #0d47a1 !important;
   color: white;
 }
@@ -183,4 +183,8 @@ body {
   text-decoration: underline;
   margin-left: 1.5rem;
   cursor: pointer;
+}
+
+.logom{
+  width: 5rem;
 }

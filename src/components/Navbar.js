@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../auth/firebase-config";
 import {AuthContext} from "../context/AuthContext"
-
+import Logom from "../img/logom.jpg"
 
 const Navbar = () => {
 
@@ -21,6 +21,9 @@ const Navbar = () => {
           <a className="navbar-brand " href="/" style={{ color: "white" }}>
             React Movie App
           </a>
+          <div>
+          <img src={Logom} alt="Logom" className="logom"/>
+          </div>
           <div className="buttons">
             {currentUser ? (
               <h3>{currentUser.displayName}</h3>
