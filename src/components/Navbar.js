@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../auth/firebase-config";
 import {AuthContext} from "../context/AuthContext"
-import Logom from "../img/logom.jpg"
+import Logom from "../img/LogomWhite.png"
 
 const Navbar = () => {
 
